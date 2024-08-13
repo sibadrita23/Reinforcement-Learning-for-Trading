@@ -1,0 +1,23 @@
+rl-trading/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+│   ├── 01_environment_setup.ipynb
+│   └── 02_rl_agent_training.ipynb
+├── src/
+│   ├── data/
+│   │   ├── prepare_data.py
+│   ├── env/
+│   │   └── trading_env.py
+│   ├── agents/
+│   │   ├── dqn_agent.py
+│   │   └── train_agent.py
+├── reports/
+│   ├── figures/
+│   └── final_report.md
+├── tests/
+│   └── test_trading_env.py
+├── README.md
+├── requirements.txt
+└── .gitignore
